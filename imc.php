@@ -16,14 +16,14 @@
     
 
 
-        <form method="POST" action="index.php">
+        <form method="POST" action="imc.php">
             <div class="form-group">
                 <label for="exampleInputEmail1">Ingrese su peso</label>
-                <input type="number" class="form-control" name="weight" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="number" class="form-control" name="weight" id="exampleInputEmail1" placeholder="Ingrese su peso" aria-describedby="emailHelp">
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1">Ingrese su altura</label>
-                <input type="number" step="0.001" class="form-control" name="height" id="exampleInputPassword1">
+                <input type="number" step="0.001" class="form-control" name="height" placeholder="Ingrese altura con comas" id="exampleInputPassword1">
             </div>
 
 
